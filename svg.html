@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <object type="image/svg+xml" data="img/sprite.svg">
+        Your  browser does not support SVG 
+    </object> -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>SVG sprite</title>
+</head>
+<body>
+    <section class="how_it_works">
+        <div class="container">
+            <h1 class="how_it_works__heading">Как это работает?</h1>
+
+            <div class="how_it_works__cards">
+                <div class="how_it_works__left_card">
+                    <svg class="icon" width="375" height="288">
+                        <use xlink:href="img/sprite.svg#morning-coffee"></use>
+                    </svg>
+
+                    <h3 class="how_it_works__cards__heading">Утренний 
+                        <span class="how_it_works__orange">кофе</span>
+                    </h3>
+
+                    <p>Кофеин воздействует на центральную нервную систему как природный “будильник”. Поэтому мы быстрее просыпаемся.</p>
+                </div>
+                                
+                <div class="how_it_works__central_card">
+                    <svg class="icon" width="375" height="288">
+                        <use xlink:href="img/sprite.svg#meditation"></use>
+                    </svg>
+
+                    <h3 class="how_it_works__cards__heading">Час 
+                        <span class="how_it_works__orange">медитации</span>
+                    </h3>
+
+                    <p>После практик оба полушария мозга начинают работать сбалансированно — это привносит порядок в вашу жизнь.</p>
+                </div>
+                    
+                <div class="how_it_works__right_card">
+                    <svg class="icon" width="375" height="288">
+                        <use xlink:href="img/sprite.svg#achievements"></use>
+                    </svg>
+
+                    <h3 class="how_it_works__cards__heading">Вперёд к 
+                        <span class="how_it_works__orange">свершениям</span>
+                    </h3>
+
+                    <p>Ресурсы каждого человека ограничены, поэтому нам необходимо беречь себя и вовремя останавливаться.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="description">
+        <div class="container flex">
+            <div>
+                <h2 class=description__heading>Интеграция со сторонними сервисами</h2>
+    
+                <p class="description__text">Поможет всегда оставаться в курсе всех событий, быть максимально эффективным на протяжении всего рабочего дня, контролировать свои задачи и не опоздать на запланированные встречи.</p>
+            </div>
+            <div class="description__icons">
+                <div class="flex justify">
+                    <svg class="logo">
+                        <use xlink:href="img/sprite.svg#logo-facebook" width="70" height="70"></use>
+                    </svg>
+
+                    <svg class="logo">
+                        <use xlink:href="img/sprite.svg#logo-todoist" width="70" height="70"></use>
+                    </svg>
+
+                    <svg class="logo">
+                        <use xlink:href="img/sprite.svg#logo-workilo" width="70" height="70"></use>
+                    </svg>
+
+                    <svg class="logo">
+                        <use xlink:href="img/sprite.svg#logo-dropbox" width="70" height="70"></use>
+                    </svg>
+                </div>
+                <div class="flex justify">
+                    <svg class="logo">
+                        <use xlink:href="img/sprite.svg#logo-google" width="70" height="70"></use>
+                    </svg>
+    
+                    <svg class="logo">
+                        <use xlink:href="img/sprite.svg#logo-trello" width="70" height="70"></use>
+                    </svg>
+    
+                    <svg class="logo">
+                        <use xlink:href="img/sprite.svg#logo-slack" width="70" height="70"></use>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
